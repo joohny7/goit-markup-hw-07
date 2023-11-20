@@ -70,7 +70,7 @@ span.logo_studio_top {
     letter-spacing: 0.02em;
     color: var(--background-color)
 }
-.hero_image_button {
+.button {
     font-family: 'Roboto', sans-serif;
     background-color: var(--logo-color1);
     color: var(--background-color);
@@ -80,10 +80,10 @@ span.logo_studio_top {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.hero_image_button:hover {
+.button:hover {
     background-color: var(--HoverFocus-color);
 }
-.hero_image_button:focus {
+.button:focus {
     background-color: var(--HoverFocus-color);
 }
 h3.section_values {
