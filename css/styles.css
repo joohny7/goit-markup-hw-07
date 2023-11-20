@@ -129,11 +129,11 @@ p.section_our-team {
 .section_our-team {
     background-color: var(--section-background-color);
 }
-.section_our-team.li.list {
+ul [section_our-team] {
     background-color: var(--background-color);
 }
 .footer {
-    background-color: var(--brand-color);
+    background-color: var(--logo-color2);
 }
 span.logo_studio_bottom {
     color: var(--section-background-color);
