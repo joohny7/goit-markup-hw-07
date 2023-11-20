@@ -41,10 +41,10 @@ span.logo_studio_top {
         letter-spacing: 0.02em;
 }
 .link.nav:hover {
-    color: var(--HoverActive-color);
+    color: var(--HoverFocus-color);
 }
 .link.nav:focus {
-    color: var(--HoverActive-color);
+    color: var(--HoverFocus-color);
 }
 .link.address {
     text-decoration: none;
@@ -54,10 +54,10 @@ span.logo_studio_top {
     color: var(--brand-color);
 }
 .link.address:hover {
-    color: var(--HoverActive-color);
+    color: var(--HoverFocus-color);
 }
 .link.address:focus {
-    color: var(--HoverActive-color);   
+    color: var(--HoverFocus-color);   
 }
 .hero_image {
     background-color: var(--logo-color2);
@@ -81,12 +81,12 @@ span.logo_studio_top {
     cursor: pointer;
 }
 .hero_image_button:hover {
-    background-color: var(--HoverActive-color);
+    background-color: var(--HoverFocus-color);
 }
 .hero_image_button:focus {
-    background-color: var(--HoverActive-color);
+    background-color: var(--HoverFocus-color);
 }
-h2.section_1 {
+h2.section_what-are-we-doing {
     color: var(--logo-color2);
     font-size: 36px;
     line-height: 1.11;
@@ -94,20 +94,31 @@ h2.section_1 {
     text-align: center;
     text-transform: capitalize;
 }
-h3.section_1 {
+h2.section_our-team {
+    color: var(--logo-color2);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+h3.section_our-team {
     color: var(--logo-color2);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-p.section_1 {
+p.section_our-team {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.section_3 {
+.section_our-team {
     background-color: var(--section-background-color);
+}
+.section_our-team.li {
+    background-color: var(--background-color);
 }
 .footer {
     background-color: var(--brand-color);
