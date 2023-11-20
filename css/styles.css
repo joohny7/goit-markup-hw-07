@@ -42,7 +42,7 @@ span.logo_studio {
 .link.nav:hover {
     color: var(--HoverActive-color);
 }
-.link.nav:active {
+.link.nav:focus {
     color: var(--HoverActive-color);
 }
 .link.address {
@@ -55,6 +55,6 @@ span.logo_studio {
 .link.address:hover {
     color: var(--HoverActive-color);
 }
-.link.address:active {
+.link.address:focus {
     color: var(--HoverActive-color);   
 }
