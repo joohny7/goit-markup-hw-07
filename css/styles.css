@@ -127,7 +127,7 @@ h2.section_our-team {
     text-align: center;
     text-transform: capitalize;
 }
-.h2_style-portfolio {
+.cards_style-portfolio {
     color: var(--logo-color2);
     font-size: 20px;
     font-weight: 500;
