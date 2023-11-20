@@ -86,6 +86,18 @@ span.logo_studio_top {
 .hero_image_button:focus {
     background-color: var(--HoverFocus-color);
 }
+h3.section_values {
+    color: var(--logo-color2);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+p.section_values {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 h2.section_what-are-we-doing {
     color: var(--logo-color2);
     font-size: 36px;
@@ -117,7 +129,7 @@ p.section_our-team {
 .section_our-team {
     background-color: var(--section-background-color);
 }
-.section_our-team.li {
+.section_our-team.li.list {
     background-color: var(--background-color);
 }
 .footer {
@@ -127,11 +139,11 @@ span.logo_studio_bottom {
     color: var(--section-background-color);
     text-decoration: none;
 }
-.p.footer.p {
+p.footer_p {
     font-family: 'Roboto';
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--section-background-color);
 }
