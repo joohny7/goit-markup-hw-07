@@ -29,6 +29,7 @@ span.logo_studio_top {
 }
 .link {
     text-decoration: none;
+
 }
 .list {
     list-style: none;
@@ -125,6 +126,13 @@ h2.section_our-team {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+}
+.h2_style_portfolio {
+    color: var(--logo-color2);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 h3.section_our-team {
     color: var(--logo-color2);
