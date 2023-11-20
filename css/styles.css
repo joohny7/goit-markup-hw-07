@@ -127,7 +127,7 @@ h2.section_our-team {
     text-align: center;
     text-transform: capitalize;
 }
-.h2_style_portfolio {
+.h2_style-portfolio {
     color: var(--logo-color2);
     font-size: 20px;
     font-weight: 500;
@@ -154,7 +154,7 @@ p.section_our-team {
 .section_our-team {
     background-color: var(--section-background-color);
 }
-ul [section_our-team] {
+.list-team {
     background-color: var(--background-color);
 }
 .footer {
