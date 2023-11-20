@@ -1,5 +1,10 @@
+:root {
+    --brand-font: 'Roboto', sans-serif;
+    --brand-color: #434455;
+    --background-color: #ffffff;
+}
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #ffffff;
-    color: #434455;
+    font-family: var(--brand-font);
+    background-color: var(--background-color);
+    color: var(--brand-color);
 }
