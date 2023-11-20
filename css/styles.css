@@ -1,10 +1,25 @@
 :root {
     --brand-font: 'Roboto', sans-serif;
     --brand-color: #434455;
+    --logo-color1: #4d5ae5;
+    --logo-color2: #2e2f42;
     --background-color: #ffffff;
 }
 body {
     font-family: var(--brand-font);
     background-color: var(--background-color);
     color: var(--brand-color);
+}
+a.logo {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--logo-color1);
+    text-decoration: none;
+}
+span.logo_studio {
+    color: var(--logo-color2);
 }
