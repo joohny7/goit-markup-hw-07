@@ -4,11 +4,15 @@
     --logo-color1: #4d5ae5;
     --logo-color2: #2e2f42;
     --background-color: #ffffff;
+    --HoverActive-color: #404bbf;
 }
 body {
     font-family: var(--brand-font);
     background-color: var(--background-color);
     color: var(--brand-color);
+}
+a {
+    cursor: pointer;
 }
 a.logo {
     font-family: 'Raleway', sans-serif;
@@ -18,8 +22,39 @@ a.logo {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--logo-color1);
-    text-decoration: none;
 }
 span.logo_studio {
     color: var(--logo-color2);
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.link.nav {
+        color: var(--logo-color2);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+}
+.link.nav:hover {
+    color: var(--HoverActive-color);
+}
+.link.nav:active {
+    color: var(--HoverActive-color);
+}
+.link.address {
+    text-decoration: none;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--brand-color);
+}
+.link.address:hover {
+    color: var(--HoverActive-color);
+}
+.link.address:active {
+    color: var(--HoverActive-color);   
 }
