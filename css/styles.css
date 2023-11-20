@@ -4,7 +4,8 @@
     --logo-color1: #4d5ae5;
     --logo-color2: #2e2f42;
     --background-color: #ffffff;
-    --HoverActive-color: #404bbf;
+    --HoverFocus-color: #404bbf;
+    --section-background-color: #F4F4FD;
 }
 body {
     font-family: var(--brand-font);
@@ -23,7 +24,7 @@ a.logo {
     letter-spacing: 0.03em;
     color: var(--logo-color1);
 }
-span.logo_studio {
+span.logo_studio_top {
     color: var(--logo-color2);
 }
 .link {
@@ -58,10 +59,10 @@ span.logo_studio {
 .link.address:focus {
     color: var(--HoverActive-color);   
 }
-.top_menu {
+.hero_image {
     background-color: var(--logo-color2);
 }
-.top_menu_header {
+.hero_image_header {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
@@ -69,7 +70,7 @@ span.logo_studio {
     letter-spacing: 0.02em;
     color: var(--background-color)
 }
-.top_menu_button {
+.hero_image_button {
     font-family: 'Roboto', sans-serif;
     background-color: var(--logo-color1);
     color: var(--background-color);
@@ -79,9 +80,47 @@ span.logo_studio {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.top_menu_button:hover {
+.hero_image_button:hover {
     background-color: var(--HoverActive-color);
 }
-.top_menu_button:focus {
+.hero_image_button:focus {
     background-color: var(--HoverActive-color);
+}
+h2.section_1 {
+    color: var(--logo-color2);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+h3.section_1 {
+    color: var(--logo-color2);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+p.section_1 {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.section_3 {
+    background-color: var(--section-background-color);
+}
+.footer {
+    background-color: var(--brand-color);
+}
+span.logo_studio_bottom {
+    color: var(--section-background-color);
+    text-decoration: none;
+}
+.p.footer.p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--section-background-color);
 }
