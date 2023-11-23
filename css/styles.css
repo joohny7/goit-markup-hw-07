@@ -12,9 +12,6 @@ body {
     background-color: var(--background-color);
     color: var(--brand-color);
 }
-a {
-    cursor: pointer;
-}
 a.logo {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -29,6 +26,7 @@ span.logo_studio_top {
 }
 .link {
     text-decoration: none;
+    cursor: pointer;
 }
 .list {
     list-style: none;
