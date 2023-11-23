@@ -83,6 +83,13 @@ span.logo-studio-top {
     background-color: var(--HoverFocus-color);
     color: var(--background-color);
 }
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--logo-color2);
+}
 .section-title {
     color: var(--logo-color2);
     font-size: 36px;
@@ -96,6 +103,10 @@ span.logo-studio-top {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.text {
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .image-text {
