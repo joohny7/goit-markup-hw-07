@@ -21,7 +21,7 @@ a.logo {
     letter-spacing: 0.03em;
     color: var(--logo-color1);
 }
-span.logo_studio_top {
+span.logo-studio-top {
     color: var(--logo-color2);
 }
 .link {
@@ -51,10 +51,10 @@ span.logo_studio_top {
 .link.address:hover, .link.address:focus {
     color: var(--HoverFocus-color); 
 }
-.hero_image {
+.hero-image {
     background-color: var(--logo-color2);
 }
-.hero_image_header {
+.hero-header {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
@@ -83,7 +83,7 @@ span.logo_studio_top {
     background-color: var(--HoverFocus-color);
     color: var(--background-color);
 }
-.section_title {
+.section-title {
     color: var(--logo-color2);
     font-size: 36px;
     line-height: 1.11;
@@ -91,19 +91,19 @@ span.logo_studio_top {
     text-align: center;
     text-transform: capitalize;
 }
-.section_p_title {
+.image-title {
     color: var(--logo-color2);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.section_p {
+.image-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.section_our-team {
+.team {
     background-color: var(--section-background-color);
 }
 .list-team {
@@ -112,11 +112,11 @@ span.logo_studio_top {
 .footer {
     background-color: var(--logo-color2);
 }
-span.logo_studio_bottom {
+span.logo-studio-bottom {
     color: var(--section-background-color);
     text-decoration: none;
 }
-p.footer_p {
+p.footer-text {
     font-family: 'Roboto';
     font-size: 16px;
     font-weight: 400;
