@@ -29,7 +29,6 @@ span.logo_studio_top {
 }
 .link {
     text-decoration: none;
-
 }
 .list {
     list-style: none;
@@ -41,10 +40,7 @@ span.logo_studio_top {
         line-height: 24px;
         letter-spacing: 0.02em;
 }
-.link.nav:hover {
-    color: var(--HoverFocus-color);
-}
-.link.nav:focus {
+.link.nav:hover, .link.nav:focus {
     color: var(--HoverFocus-color);
 }
 .link.address {
@@ -54,11 +50,8 @@ span.logo_studio_top {
     letter-spacing: 0.02em;
     color: var(--brand-color);
 }
-.link.address:hover {
-    color: var(--HoverFocus-color);
-}
-.link.address:focus {
-    color: var(--HoverFocus-color);   
+.link.address:hover, .link.address:focus {
+    color: var(--HoverFocus-color); 
 }
 .hero_image {
     background-color: var(--logo-color2);
@@ -81,37 +74,18 @@ span.logo_studio_top {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.button:hover {
-    background-color: var(--HoverFocus-color);
-}
-.button:focus {
+.button:hover, .button:focus {
     background-color: var(--HoverFocus-color);
 }
 .button.portfolio {
     background-color: var(--section-background-color);
     color: var(--logo-color1)
 }
-.button.portfolio:hover {
+.button.portfolio:hover, button.portfolio:focus {
     background-color: var(--HoverFocus-color);
     color: var(--background-color);
 }
-.button.portfolio:focus {
-    background-color: var(--HoverFocus-color);
-    color: var(--background-color);
-}
-h3.section_values {
-    color: var(--logo-color2);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-p.section_values {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-h2.section_what-are-we-doing {
+.section_title {
     color: var(--logo-color2);
     font-size: 36px;
     line-height: 1.11;
@@ -119,34 +93,14 @@ h2.section_what-are-we-doing {
     text-align: center;
     text-transform: capitalize;
 }
-h2.section_our-team {
-    color: var(--logo-color2);
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-}
-.cards_style-portfolio {
+.section_p_title {
     color: var(--logo-color2);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-h3.section_our-team {
-    color: var(--logo-color2);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-p.section_our-team {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.p_style_portfolio {
+.section_p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
