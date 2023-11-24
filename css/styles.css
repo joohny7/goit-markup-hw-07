@@ -12,6 +12,24 @@ body {
     background-color: var(--background-color);
     color: var(--brand-color);
 }
+img {
+    display: block;
+}
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-div {
+    display: flex;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px
+}
+nav {
+    display: flex;
+    align-items: center;
+}
 .logo {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -20,6 +38,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--logo-color1);
+    margin-right: 76px;
 }
 .logo-studio-top {
     color: var(--logo-color2);
@@ -31,15 +50,24 @@ body {
 .list {
     list-style: none;
 }
+.list.nav {
+    display: flex;
+    gap: 40px;
+}
 .link.nav {
         color: var(--logo-color2);
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.02em;
+        padding: 24 0;
 }
 .link.nav:hover, .link.nav:focus {
     color: var(--HoverFocus-color);
+}
+.list.address {
+    display: flex;
+    gap: 40px;
 }
 .link.address {
     text-decoration: none;
