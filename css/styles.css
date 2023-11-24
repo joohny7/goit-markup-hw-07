@@ -12,6 +12,9 @@ body {
     background-color: var(--background-color);
     color: var(--brand-color);
 }
+.main {
+    padding: 0 0;
+}
 img {
     display: block;
 }
@@ -25,6 +28,9 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px
+}
+.hero-image-container {
+    max-width: 496px;
 }
 .nav {
     display: flex;
@@ -75,12 +81,14 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--brand-color);
+    padding: 24px 0;
 }
 .link.address:hover, .link.address:focus {
     color: var(--HoverFocus-color); 
 }
 .hero-image {
     background-color: var(--logo-color2);
+    padding: 188px 0;
 }
 .hero-header {
     text-align: center;
@@ -88,9 +96,10 @@ img {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: var(--background-color)
+    color: var(--background-color);
+    margin: 0;
 }
-.button {
+.button.studio {
     font-family: 'Roboto', sans-serif;
     background-color: var(--logo-color1);
     color: var(--background-color);
@@ -99,6 +108,11 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    height: 56px;
+    min-width: 169px;
+    display: block;
 }
 .button:hover, .button:focus {
     background-color: var(--HoverFocus-color);
