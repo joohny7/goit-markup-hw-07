@@ -12,7 +12,7 @@ body {
     background-color: var(--background-color);
     color: var(--brand-color);
 }
-a.logo {
+.logo {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-size: 18px;
@@ -21,7 +21,7 @@ a.logo {
     letter-spacing: 0.03em;
     color: var(--logo-color1);
 }
-span.logo-studio-top {
+.logo-studio-top {
     color: var(--logo-color2);
 }
 .link {
@@ -123,11 +123,11 @@ span.logo-studio-top {
 .footer {
     background-color: var(--logo-color2);
 }
-span.logo-studio-bottom {
+.logo-studio-bottom {
     color: var(--section-background-color);
     text-decoration: none;
 }
-p.footer-text {
+.footer-text {
     font-family: 'Roboto';
     font-size: 16px;
     font-weight: 400;
