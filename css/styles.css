@@ -12,6 +12,12 @@ body {
     background-color: var(--background-color);
     color: var(--brand-color);
 }
+header {
+    display: inline-flex;
+}
+nav {
+    display: inline-flex;
+}
 .logo {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -20,6 +26,14 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--logo-color1);
+    margin-top: 24px;
+    margin-left: 41px;
+    box-sizing: border-box;
+    display: inline-flex;
+        height: 24px;
+        width: 115;
+        align-items: center;
+        flex-shrink: 0;
 }
 .logo-studio-top {
     color: var(--logo-color2);
@@ -30,6 +44,10 @@ body {
 }
 .list {
     list-style: none;
+}
+.list.nav {
+    padding: 0;
+    margin: 0;
 }
 .link.nav {
         color: var(--logo-color2);
@@ -47,12 +65,20 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--brand-color);
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
 }
 .link.address:hover, .link.address:focus {
     color: var(--HoverFocus-color); 
 }
 .hero-image {
     background-color: var(--logo-color2);
+    width: 1440px;
+        height: 600px;
+        flex-shrink: 0;
+        text-align: center;
+        box-sizing: border-box;
 }
 .hero-header {
     text-align: center;
@@ -60,7 +86,7 @@ body {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: var(--background-color)
+    color: var(--background-color);
 }
 .button {
     font-family: 'Roboto', sans-serif;
