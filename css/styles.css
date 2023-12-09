@@ -1,3 +1,7 @@
+* {
+margin: 0;
+padding: 0;
+}
 :root {
     --brand-font: 'Roboto', sans-serif;
     --brand-color: #434455;
@@ -79,13 +83,15 @@ img {
     list-style: none;
     display: flex;
     gap: 24px;
+    padding: 0;
 }
 .list.nav {
     display: flex;
     gap: 40px;
 }
-.list.values {
+.list-values {
     width: calc((100% - 72px) / 4);
+    padding: 0;
 }
 .list.address {
     display: flex;
@@ -137,9 +143,6 @@ img {
 .values {
     padding: 120px 0;
 }
-.values-div {
-
-}
 .title {
     font-weight: 500;
     font-size: 20px;
@@ -163,21 +166,31 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .text {
     line-height: 1.5;
     letter-spacing: 0.02em;
+
 }
 .image-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .team {
     background-color: var(--section-background-color);
+    padding: 120px;
 }
 .list-team {
     background-color: var(--background-color);
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.li-description {
+    padding: 32px 0;
 }
 .footer {
     background-color: var(--logo-color2);
@@ -202,10 +215,10 @@ footer > div > .link.logo {
 }
 .visually-hidden {
     clip: rect(0 0 0 0);
-        clip-path: inset 100% 0;
-                height: 1px;
-                overflow: hidden;
-                position: absolute;
-                white-space: no wrap;
-                width: 1px;
+    clip-path: inset (100%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
