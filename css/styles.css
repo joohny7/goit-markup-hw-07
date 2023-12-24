@@ -136,11 +136,16 @@ img {
     padding: 32px 16px;
     border: 1px solid var(--border-color);
     border-top: none;
-    margin-bottom: 8px;
 }
 .hero-image {
     background-color: var(--logo-color2);
     padding: 188px 0;
+    background-image: url("/images/people-office.jpg");
+    box-sizing: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    max-width: 1440px;
 }
 .hero-header {
     text-align: center;
@@ -166,7 +171,7 @@ img {
     height: 56px;
     min-width: 169px;
     display: block;
-    margin: 0 auto;
+    margin: 60px auto;
 }
 .button:hover, .button:focus {
     background-color: var(--HoverFocus-color);
@@ -227,6 +232,9 @@ img {
     background-color: var(--background-color);
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px #2E2F4214;
+    box-shadow: 0px 1px 1px 0px #2E2F4229;
+    box-shadow: 0px 1px 6px 0px #2E2F4214;
 }
 .li-description {
     padding: 32px 0;
@@ -263,4 +271,28 @@ footer > div > .link.logo {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+.icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+.socials {
+    display: flex;
+    gap: 24px;
+}
+.icon-values {
+    width: 64px;
+    height: 64px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.values-images {
+    background-color: var(--section-background-color);
+    margin-bottom: 8px;
+}
+.values-image {
+    max-width: 64px;
+    max-height: 64px;
 }
