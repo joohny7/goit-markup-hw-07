@@ -150,7 +150,7 @@ img {
     display: block;
 }
 .link.portfolio:hover,
-.link.portfolio:active {
+.link.portfolio:focus {
     box-shadow: 
         0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -319,15 +319,16 @@ footer > div > .link.logo {
     justify-content: center;
     align-items: center;
 }
-.socials.link:hover, .socials.link:active {
+.socials.link:hover, 
+.socials.link:focus {
 background-color: var(--HoverFocus-color);
 }
 .svg-socials {
 fill: var(--section-background-color)
 }
 .container.customers {
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .customers > .container > h2 {
     margin-bottom: 72px;
