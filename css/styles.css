@@ -333,10 +333,17 @@ fill: var(--section-background-color)
 .customers > .container > h2 {
     margin-bottom: 72px;
 }
-.list.customers-element {
+.customers.link{
     width: 168px;
     height: 88px;
     gap: 24px;
     border-radius: 4px;
     border: 1px solid #8E8F99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customers.link:hover,
+.customers.link:focus {
+    fill:
 }
