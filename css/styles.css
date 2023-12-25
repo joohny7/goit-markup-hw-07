@@ -11,6 +11,7 @@ padding: 0;
     --HoverFocus-color: #404bbf;
     --section-background-color: #F4F4FD;
     --border-color: #e7e9fc;
+    --customers-color: #8e8f99;
 }
 body {
     font-family: var(--brand-font);
@@ -262,6 +263,7 @@ img {
 .footer {
     background-color: var(--logo-color2);
     padding: 100px 0;
+    display: flex;
 }
 .logo-studio-bottom {
     color: var(--section-background-color);
@@ -278,6 +280,13 @@ img {
 }
 footer > div > .link.logo {
     display: inline-block;
+    margin-bottom: 16px;
+}
+.footer-div {
+    margin-right: 120px;
+}
+.footer-socials > p{
+    display: block;
     margin-bottom: 16px;
 }
 .visually-hidden {
@@ -326,7 +335,7 @@ background-color: var(--HoverFocus-color);
 .svg-socials {
 fill: var(--section-background-color)
 }
-.container.customers {
+section.customers {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -342,8 +351,13 @@ fill: var(--section-background-color)
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--customers-color);
 }
 .customers.link:hover,
 .customers.link:focus {
-    fill:
+    border-color: var(--HoverFocus-color);
+    color: var(--HoverFocus-color);
+}
+.svg-customers {
+    fill: currentColor; 
 }
