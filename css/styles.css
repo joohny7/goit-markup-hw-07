@@ -283,6 +283,7 @@ footer > div > .link.logo {
     margin-bottom: 16px;
 }
 .footer-div {
+    display: flex;
     margin-right: 120px;
 }
 .footer-socials > p{
