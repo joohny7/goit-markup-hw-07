@@ -265,6 +265,10 @@ img {
     padding: 100px 0;
     display: flex;
 }
+.footer-bigbox {
+    display: flex;
+    align-items: baseline;
+}
 .logo-studio-bottom {
     color: var(--section-background-color);
     text-decoration: none;
@@ -277,16 +281,16 @@ img {
     letter-spacing: 0.02em;
     color: var(--section-background-color);
     max-width: 264px;
+    margin-top: 16px;
 }
 footer > div > .link.logo {
     display: inline-block;
-    margin-bottom: 16px;
 }
 .footer-div {
-    display: flex;
     margin-right: 120px;
+    margin-left: 156px;
 }
-.footer-socials > p{
+.footer-socials > p {
     display: block;
     margin-bottom: 16px;
 }
