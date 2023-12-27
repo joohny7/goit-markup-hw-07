@@ -283,12 +283,21 @@ img {
     max-width: 264px;
     margin-top: 16px;
 }
+.footer-text.socials {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--section-background-color);
+    max-width: 264px;
+    margin-top: 16px;
+}
 footer > div > .link.logo {
     display: inline-block;
 }
 .footer-div {
     margin-right: 120px;
-    margin-left: 156px;
 }
 .footer-socials > p {
     display: block;
@@ -325,7 +334,7 @@ footer > div > .link.logo {
     margin-bottom: 8px;
     border-radius: 4px;
 }
-.socials.link{
+.socials.link, .socials.link-footer {
     width: 100%;
     height: 100%;
     background-color: var(--logo-color1);
@@ -336,6 +345,10 @@ footer > div > .link.logo {
 .socials.link:hover, 
 .socials.link:focus {
 background-color: var(--HoverFocus-color);
+}
+.socials.link-footer:hover,
+.socials.link-footer:focus {
+    background-color: #31d0aa;
 }
 .svg-socials {
 fill: var(--section-background-color)
