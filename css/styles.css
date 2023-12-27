@@ -301,7 +301,6 @@ footer > div > .link.logo {
 }
 .footer-socials > p {
     display: block;
-    margin-bottom: 16px;
 }
 .visually-hidden {
     position: absolute;
@@ -317,14 +316,13 @@ footer > div > .link.logo {
 }
 .socials {
     display: flex;
-    gap: 24px;
+    gap: 16px;
     list-style: none;
     justify-content: center;
 }
 .socials-element {
     width: 40px;
     height: 40px;
-    gap: 16px;
 }
 .values-images {
     display: flex;
