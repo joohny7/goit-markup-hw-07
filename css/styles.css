@@ -283,7 +283,7 @@ img {
     max-width: 264px;
     margin-top: 16px;
 }
-.footer-text.socials {
+.footer-text-socials {
     font-family: 'Roboto';
     font-size: 16px;
     font-weight: 500;
@@ -315,6 +315,12 @@ footer > div > .link.logo {
     overflow: hidden;
 }
 .socials {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    justify-content: center;
+}
+.socials-footer {
     display: flex;
     gap: 16px;
     list-style: none;
