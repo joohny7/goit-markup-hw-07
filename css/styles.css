@@ -13,6 +13,7 @@ padding: 0;
     --border-color: #e7e9fc;
     --customers-color: #8e8f99;
     --socials-hover-footer: #31d0aa;
+    --modal-color: #fcfcfc;
 }
 :hover
 :focus {
@@ -75,6 +76,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--brand-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link.address:hover,
@@ -90,7 +92,8 @@ img {
     letter-spacing: 0.02em;
     padding: 24px 0;
     position: relative;
-    color: var(--HoverFocus-color);
+    color: var(--brand-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link.nav::after {
@@ -101,7 +104,6 @@ img {
     height: 4px;
     border-radius: 2px;
     background-color: var(--HoverFocus-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link.nav:hover,
@@ -417,7 +419,8 @@ section.customers {
     align-items: center;
     justify-content: center;
     color: var(--customers-color);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers.link:hover,
 .customers.link:focus {
@@ -473,7 +476,7 @@ section.customers {
     transform: translate(-50%, -50%);
     width: 408px;
     min-height: 584px;
-    background-color: var(--background-color);
+    background-color: var(--modal-color);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -491,6 +494,7 @@ section.customers {
     align-items: center;
     border: 1px solid rgba(0,0,0,0.1);
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-btn:hover,
 .close-btn:focus {
