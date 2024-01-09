@@ -81,8 +81,7 @@ img {
 
 .link.address:hover,
 .link.address:focus {
-    color: var(--HoverFocus-color);
-    
+    color: var(--HoverFocus-color);   
 }
 .link.nav {
     color: var(--logo-color2);
@@ -92,24 +91,34 @@ img {
     letter-spacing: 0.02em;
     padding: 24px 0;
     position: relative;
-    color: var(--HoverFocus-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.link.nav::after {
-    position: absolute; 
-    content: "";
+.link.nav.active {
+    color: var(--HoverFocus-color);
+}
+.link.nav.studio.active::after {
+    content:'';
+    position: absolute;
     left: 0;
     bottom: -1px;
     height: 4px;
-    border-radius: 2px;
+    width: 48px;
     background-color: var(--HoverFocus-color);
+    border-radius: 2px;
 }
-
+.link.nav.portfolio.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    width: 66px;
+    background-color: var(--HoverFocus-color);
+    border-radius: 2px;
+}
 .link.nav:hover,
 .link.nav:focus {
     color: var(--HoverFocus-color);
-    
 }
 .list {
     list-style: none;
@@ -145,6 +154,10 @@ img {
     border-radius: 4px;
     border: 1px solid var(--border-color);
     cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button.portfolio:hover, 
 .button.portfolio:focus {
@@ -172,6 +185,7 @@ img {
 }
 .link.portfolio {
     display: block;
+    box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link.portfolio:hover,
 .link.portfolio:focus {
@@ -179,7 +193,7 @@ img {
         0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
-    
+    transform: translateY(0%);
 }
 .hero-image {
     background-color: var(--logo-color2);
