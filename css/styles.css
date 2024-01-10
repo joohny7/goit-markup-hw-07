@@ -96,18 +96,8 @@ img {
 .link.nav.active {
     color: var(--HoverFocus-color);
 }
-.link.nav.studio.active::after {
+.link.nav.active::after {
     content:'';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    width: 100%;
-    background-color: var(--HoverFocus-color);
-    border-radius: 2px;
-}
-.link.nav.portfolio.active::after {
-    content: '';
     position: absolute;
     left: 0;
     bottom: -1px;
