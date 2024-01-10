@@ -188,7 +188,7 @@ img {
 .hero-image {
     background-color: var(--logo-color2);
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/people-office.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("./images/people-office.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -503,7 +503,6 @@ section.customers {
     background-color: var(--HoverFocus-color);
     border: none;
     fill: var(--background-color);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-close-btn {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
