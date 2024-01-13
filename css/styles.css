@@ -512,3 +512,20 @@ section.customers {
     visibility: hidden;
     pointer-events: none;
 }
+.modal-title {
+    text-align: center;
+    padding: 72px;
+}
+label {
+    display: block;
+    width: 28rem;
+    margin-bottom: 1.75rem;
+    position: relative;
+}
+.inputs {
+    display: flex;
+        width: 360px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+}
