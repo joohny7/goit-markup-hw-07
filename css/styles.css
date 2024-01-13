@@ -522,6 +522,7 @@ section.customers {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+    color: var(--logo-color2);
 }
 .inputs {
    margin-bottom: 8px;
@@ -529,7 +530,7 @@ section.customers {
 .label {
     font-size: 12px;
     line-height: 1.17;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
     color: var(--customers-color);
     display: block;
     margin-bottom: 4px;
