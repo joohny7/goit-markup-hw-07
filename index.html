@@ -486,6 +486,25 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe">
+          <p class="subscribe-text">Subscribe</p>
+          <form class="subscribe-form">
+            <label class="subscribe-label">
+              <input
+                class="subscribe-input"
+                name="user-email"
+                type="email"
+                placeholder="E-mail"
+              />
+            </label>
+          </form>
+          <button type="submit" class="subscribe-btn">
+            Subscribe
+            <svg width="24" height="24" class="icon-subscribe">
+              <use href="./images/icons.svg#icon-Frame-3"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -518,8 +537,8 @@
             <label class="label" for="user-name">Phone</label>
             <div class="input-and-icon">
               <input
-                id="user-name"
-                name="user-name"
+                id="user-phone"
+                name="user-phone"
                 type="text"
                 class="input"
               />
@@ -532,8 +551,8 @@
             <label class="label" for="user-name">Email</label>
             <div class="input-and-icon">
               <input
-                id="user-name"
-                name="user-name"
+                id="user-email"
+                name="user-email"
                 type="text"
                 class="input"
               />
@@ -558,21 +577,19 @@
               type="checkbox"
               value="true"
               name="user-privacy"
-              class="visually-hidden"
+              class="user-privacy visually-hidden"
             />
-            <label for="user-privacy">
+            <label for="user-privacy" class="user-privacy">
               <span class="checkbox-user-privacy">
-                <svg>
-                  <use href=".images/icon.svg#icon-tick.svg"></use>
+                <svg width="10px" height="8px">
+                  <use href="./images/icons.svg#icon-tick"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
               <a href="" class="privacy-policy">Privacy Policy</a></label
             >
           </div>
-          <button type="button" class="button studio" data-modal-open>
-            Send
-          </button>
+          <button type="button" class="send-btn">Send</button>
         </form>
         <div class="checkbox"></div>
       </div>
