@@ -545,24 +545,30 @@
           <div class="inputs-comment">
             <label class="label" for="user-comment">Comment</label>
             <textarea
+              class="input-comment"
               id="user-comment"
               name="user-comment"
-              class="input-comment"
               placeholder="Text input"
             >
             </textarea>
-            <div class="checkbox">
-              <input
-                id="user-privacy"
-                type="checkbox"
-                value="true"
-                name="user-privacy"
-                class="visually-hidden"
-              />
-              <label for="user-privacy">
-                I accept the terms and conditions of the</label
-              >
-            </div>
+          </div>
+          <div class="checkbox">
+            <input
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+              class="visually-hidden"
+            />
+            <label for="user-privacy">
+              <span class="checkbox-user-privacy">
+                <svg>
+                  <use href=".images/icon.svg#icon-tick.svg"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="privacy-policy">Privacy Policy</a></label
+            >
           </div>
           <button type="button" class="button studio" data-modal-open>
             Send
