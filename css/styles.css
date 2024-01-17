@@ -680,6 +680,3 @@ section.customers {
     fill: var(--background-color);
     margin-left: 16px;
 }
-s[placeholder] {
-    display: none;
-}
