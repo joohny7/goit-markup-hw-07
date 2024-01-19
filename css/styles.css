@@ -19,6 +19,7 @@ padding: 0;
 :focus {
 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+/* mobile first */
 body {
     font-family: var(--brand-font);
     background-color: var(--background-color);
@@ -97,7 +98,7 @@ img {
     color: var(--HoverFocus-color);
 }
 .link.nav.active::after {
-    content:'';
+    content: "";
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -195,6 +196,17 @@ img {
     background-position: center;
     max-width: 1440px;
     margin: auto;
+}
+@media 
+(min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .order-section {
+        background-image: linear-gradient (to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-2x.jpg);
+    }
 }
 .hero-header {
     text-align: center;
@@ -680,3 +692,140 @@ section.customers {
     fill: var(--background-color);
     margin-left: 16px;
 }
+.menu-hamburger {
+    stroke: var(--logo-color2);
+    height: 22px;
+}
+.menu-toggle {
+    background-color: var(--background-color);
+}
+/* tablet */ 
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+}
+.header-div {
+    display: flex;
+    justify-content: space-around;
+}
+ .menu-container {
+     display: none;
+ }
+ .menu-toggle {
+     display: none;
+ }
+ .nav {
+    padding: 0;
+ }
+ .list.nav {
+    display: flex;
+    gap: 40px;
+ }
+ .link.nav {
+    font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--background-color-section);
+        display: inline-block;
+        padding: 24px 0;
+        position: relative;
+ }
+  .link.nav:hover,
+  .link.nav:focus {
+      color: var(--HoverFocus-color);
+  }
+  .link.nav:active:after {
+      content: "";
+      display: block;
+      background-color: var(--HoverFocus-color);
+      height: 4px;
+      border-radius: 2px;
+      position: absolute;
+      width: 100%;
+      bottom: -1px;
+      left: 0px;
+  }
+  .list.address {
+    font-style: normal;
+        display: flex;
+        gap: 12px;
+        flex-direction: column;
+        margin: 16px 0;
+  }
+  .link.address {
+    color: var(--brand-color);
+        display: block;
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.48px;
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .link.address:hover,
+  .link.address:focus {
+      color: var(--HoverFocus-color);
+  }
+  .footer {
+    padding: 96px 0;
+  }
+  .footer-bigbox {
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        column-gap: 24px;
+        row-gap: 72px;
+        max-width: 550px;
+  }
+  .footer-div {
+    display: block;
+        margin-bottom: 0;
+  }
+  .socials-footer {
+    margin-bottom: 0;
+  }
+  .footer-text {
+    max-width: 264px;
+        margin-top: 16px;
+  }
+  .footer-text-socials {
+    text-align: left;
+  }
+  .subscribe-text {
+    text-align: left;
+  }
+  .subscribe-form {
+    display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 24px;
+  }
+  .subscribe-input {
+    min-width: 264px;
+  }
+  .hero-image {
+    height: 436px;
+        padding: 112px 0;
+  }
+  .hero-header {
+    font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 1.12px;
+        max-width: 500px;
+        margin-bottom: 36px;
+        text-transform: none;
+  }
+  .list-values {
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-basis: calc((100% - 24px) / 2);
+        columns: 2;
+        column-gap: 24px;
+        row-gap: 72px;
+  }
