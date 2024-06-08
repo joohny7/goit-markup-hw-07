@@ -49,8 +49,10 @@ img {
 
 .header-div {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 56px;
+    align-items: center;
+    padding: 16px;
 }
 
 .container {
@@ -142,7 +144,7 @@ img {
 }
 
 .list-values {
-    width: 100%;
+    width: 288px;
     padding: 0;
 }
 
@@ -400,7 +402,7 @@ button.portfolio:focus {
     letter-spacing: 0.02em;
     color: var(--section-background-color);
     margin-top: 16px;
-    padding: 0px 16px;
+    width: 288px;
 }
 
 .footer-text-socials {
@@ -838,9 +840,77 @@ section.customers {
 }
 .menu-hamburger {
     stroke: var(--logo-color2);
-    height: 22px;
 }
 
 .menu-toggle {
+    border: none;
     background-color: var(--background-color);
+    height: 24px;
+    width: 24px;
+}
+.menu-container {
+    background-color: var(--background-color);
+    display: none;
+    flex-direction: column;
+    padding: 0 24px 0 16px;
+}
+.menu-container.is-open {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.close-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    border-radius: 50%;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.list.mobile-menu {
+    align-items: start;
+    list-style: none;
+    margin-top: 72px;
+    gap: 40px;
+    font-size: 36px;
+    font-weight: 700;
+    
+    text-decoration: none;
+}
+
+.list.mobile-menu-address {
+    align-items: start;
+    list-style: none;
+    margin-top: 168px;
+    gap: 24px;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+}
+.page-link {
+color: var(--logo-color2);
+}
+
+.page-link.page {
+color: var(--HoverFocus-color)
+}
+.link.mobile-number{
+    color: var(--logo-color1)
+}
+.link.mobile-mail {
+    color: var(--brand-color)
+}
+.socials-mobile {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 48px;
+    width: 100%;
 }

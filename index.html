@@ -23,15 +23,7 @@
           <a href="./index.html" class="link logo"
             >Web<span class="logo-studio-top">Studio</span></a
           >
-          <button
-            class="menu-toggle js-open-menu"
-            aria-expanded="false"
-            aria-controls="mobile-menu"
-          >
-            <svg class="menu-hamburger" width="32" height="22">
-              <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
-            </svg>
-          </button>
+
           <ul class="list nav">
             <li>
               <a href="./index.html" class="link nav active">Studio</a>
@@ -56,6 +48,15 @@
             </li>
           </ul>
         </address>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="menu-hamburger" width="24" height="24">
+            <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -604,12 +605,15 @@
     </div>
     <div class="menu-container js-menu-container" id="mobile-menu">
       <div>
-        <button class="menu-toggle js-close-menu">
-          <svg class="mobile-close-button" width="8" height="8">
-            <use href="./images/close.svg#icon-close-black-18dp-2-1"></use>
+        <button class="menu-toggle js-close-menu close-btn">
+          <svg class="svg-close-btn" width="8" height="8">
+            <use
+              class="icon"
+              href="./images/icons.svg#icon-close-black-18dp-2-1"
+            ></use>
           </svg>
         </button>
-        <ul class="list mobile-list-header">
+        <ul class="list mobile-menu">
           <li class="list-item">
             <a href="./index.html" class="link page-link page">Studio</a>
           </li>
@@ -623,7 +627,7 @@
       </div>
       <div>
         <address class="mobile-address">
-          <ul class="list mobile-list-address">
+          <ul class="list mobile-menu-address">
             <li>
               <a href="tel:+110001111111" class="link mobile-number"
                 >+11 (000) 111-11-11</a
@@ -636,32 +640,32 @@
             </li>
           </ul>
         </address>
-        <ul class="list mobile-social-media">
-          <li class="mobile-social-media-list">
-            <a href="" class="link mobile-socialmedia-icon">
-              <svg class="mobile-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram-2"></use>
+        <ul class="socials-mobile">
+          <li class="socials-element">
+            <a href="" class="socials link-footer">
+              <svg class="svg-socials" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
-          <li class="mobile-social-media-list">
-            <a href="" class="link mobile-socialmedia-icon">
-              <svg class="mobile-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter-1"></use>
+          <li class="socials-element">
+            <a href="" class="socials link-footer">
+              <svg class="svg-socials" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
-          <li class="mobile-social-media-list">
-            <a href="" class="link mobile-socialmedia-icon">
-              <svg class="mobile-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook-1"></use>
+          <li class="socials-element">
+            <a href="" class="socials link-footer">
+              <svg class="svg-socials" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
-          <li class="mobile-social-media-list">
-            <a href="" class="link mobile-socialmedia-icon">
-              <svg class="mobile-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin-1"></use>
+          <li class="socials-element">
+            <a href="" class="socials link-footer">
+              <svg class="svg-socials" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin2"></use>
               </svg>
             </a>
           </li>
