@@ -157,7 +157,7 @@ img {
     text-align: center;
 }
 
-.list.address {
+.list-address {
     display: none;
     gap: 40px;
     padding: 24px 0;
@@ -244,6 +244,12 @@ img {
     letter-spacing: 0.02em;
     color: var(--background-color);
     margin: 0 auto;
+    width: 216px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 72px;;
 }
 
 .button.studio {
@@ -824,20 +830,6 @@ section.customers {
     margin-left: 16px;
 }
 
-@media screen and (min-width: 768px) {
-    .header-div {
-        height: 72px;
-    }
-    .list.nav {
-        display: flex;
-        flex-direction: row;
-    }
-    .list.address {
-        display: flex;
-        gap: 12px;
-        padding: 16px;
-    }
-}
 .menu-hamburger {
     stroke: var(--logo-color2);
 }
@@ -910,7 +902,54 @@ color: var(--HoverFocus-color)
     display: flex;
     gap: 24px;
     list-style: none;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 48px;
     width: 100%;
+}
+@media screen and (min-width: 768px) {
+    .header-div {
+        height: 72px;
+    }
+    .list.nav {
+        display: flex;
+        flex-direction: row;
+        margin-left: 120px;
+    }
+    .list-address {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        list-style: none;
+    }
+    .menu-toggle {
+        display: none;
+    }
+    .list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .list-values h3 {
+        text-align: start;
+    }
+    .hero-header {
+        width: 496px;
+        height: 120px;
+    }
+    .list.customers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+}
+   .list.customers-element {
+       flex: calc(33.33% - 24px);
+       box-sizing: border-box;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .footer-bigbox {
+    
+   }
 }
